@@ -1,11 +1,5 @@
 package _00_Intro_To_Arrays;
 
-import java.util.Random;
-
-import javax.swing.JOptionPane;
-
-import org.jointheleague.graphical.robot.Robot;
-
 public class _02_RobotRace {
     // 1. make a main method
 
