@@ -23,8 +23,9 @@ public class _00_1D_Array_Methods {
 
 		for(int i: values) {
 			sum = sum + i;
-			average = sum/i;
 		}
+
+		average = (double) sum/values.length;
 
 		return average;
 	}
@@ -49,8 +50,12 @@ public class _00_1D_Array_Methods {
 	//   If the array does not contain the specified value, it should return -1.
 	public static int getIndex(int[] arr, int value) {
 
-		//unfinished method
-		
+		for(int i: arr) {
+			if(arr[i] == value) {
+				return i;
+			}
+		}
+
 		return -1;
 	}
 }
